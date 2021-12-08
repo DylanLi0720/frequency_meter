@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"proteus_keil_stm32f103r6\startup_stm32f103x6.o"
+"proteus_keil_stm32f103r6\delay.o"
+"proteus_keil_stm32f103r6\main.o"
+"proteus_keil_stm32f103r6\gpio.o"
+"proteus_keil_stm32f103r6\tim.o"
+"proteus_keil_stm32f103r6\usart.o"
+"proteus_keil_stm32f103r6\stm32f1xx_it.o"
+"proteus_keil_stm32f103r6\stm32f1xx_hal_msp.o"
+"proteus_keil_stm32f103r6\system_stm32f1xx.o"
+"proteus_keil_stm32f103r6\stm32f1xx_hal_gpio_ex.o"
+"proteus_keil_stm32f103r6\stm32f1xx_hal_tim.o"
+"proteus_keil_stm32f103r6\stm32f1xx_hal_tim_ex.o"
+"proteus_keil_stm32f103r6\stm32f1xx_hal.o"
+"proteus_keil_stm32f103r6\stm32f1xx_hal_rcc.o"
+"proteus_keil_stm32f103r6\stm32f1xx_hal_rcc_ex.o"
+"proteus_keil_stm32f103r6\stm32f1xx_hal_gpio.o"
+"proteus_keil_stm32f103r6\stm32f1xx_hal_dma.o"
+"proteus_keil_stm32f103r6\stm32f1xx_hal_cortex.o"
+"proteus_keil_stm32f103r6\stm32f1xx_hal_pwr.o"
+"proteus_keil_stm32f103r6\stm32f1xx_hal_flash.o"
+"proteus_keil_stm32f103r6\stm32f1xx_hal_flash_ex.o"
+"proteus_keil_stm32f103r6\stm32f1xx_hal_exti.o"
+"proteus_keil_stm32f103r6\stm32f1xx_hal_uart.o"
+--library_type=microlib --strict --scatter "Proteus_Keil_STM32F103R6\Proteus_Keil_STM32F103R6.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Proteus_Keil_STM32F103R6.map" -o Proteus_Keil_STM32F103R6\Proteus_Keil_STM32F103R6.axf

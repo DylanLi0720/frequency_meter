@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"caputer\startup_stm32f103xe.o"
+"caputer\main.o"
+"caputer\gpio.o"
+"caputer\tim.o"
+"caputer\usart.o"
+"caputer\stm32f1xx_it.o"
+"caputer\stm32f1xx_hal_msp.o"
+"caputer\stm32f1xx_hal_gpio_ex.o"
+"caputer\stm32f1xx_hal_tim.o"
+"caputer\stm32f1xx_hal_tim_ex.o"
+"caputer\stm32f1xx_hal.o"
+"caputer\stm32f1xx_hal_rcc.o"
+"caputer\stm32f1xx_hal_rcc_ex.o"
+"caputer\stm32f1xx_hal_gpio.o"
+"caputer\stm32f1xx_hal_dma.o"
+"caputer\stm32f1xx_hal_cortex.o"
+"caputer\stm32f1xx_hal_pwr.o"
+"caputer\stm32f1xx_hal_flash.o"
+"caputer\stm32f1xx_hal_flash_ex.o"
+"caputer\stm32f1xx_hal_exti.o"
+"caputer\stm32f1xx_hal_uart.o"
+"caputer\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "CAPUTER\CAPUTER.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "CAPUTER.map" -o CAPUTER\CAPUTER.axf
